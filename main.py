@@ -1,0 +1,5 @@
+name = input("what is your name ?\n")
+hours = input("how many hours did you work ?\n")
+rate = input("what is the rate ?\n")
+payrate = int(hours) * int(rate)
+print("Mr/Ms", name, "your payrate is", payrate)
