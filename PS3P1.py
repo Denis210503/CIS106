@@ -1,0 +1,5 @@
+stock_symbol = input("enter the stock ticker symbol ?\n")
+price_per_share = input("enter the stock price ?\n")
+number_stock = input("How many stocks do you want to buy ?\n")
+total_price = float(price_per_share) * float(number_stock)
+print("The total cost is", "{:.2f}".format(total_price), "dollars for", number_stock, "stocks of", stock_symbol)
