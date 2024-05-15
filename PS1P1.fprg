@@ -1,17 +1,2 @@
-START
-  |
-  V
-[Input: "Enter quantity you want to purchase"] -> amount
-  |
-  V
-[Input: "Enter the cost per item"] -> price
-  |
-  V
-cost = amount * price
-  |
-  V
-[Output: "The total cost is" + cost]
-  |
-  V
-END
+
 
